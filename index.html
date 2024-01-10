@@ -1,8 +1,24 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Watcher Tracker</title>
-            <link rel='stylesheet' href='style.css'>
-        </head>
-        <body></body>
-    </html>
+<html>
+    <head>
+        <title>Watcher Tracker</title>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <h1>Watchers' Turn</h1>  
+        <table>
+            <tr>
+                <th><b>Date</th>
+                <th><b>Day</th>
+                <th><b>Night</th>
+            </tr>
+            <tr>
+                <td><input class='dateClass' type='date'></td>
+                <td><input class='watcherClass' placeholder='Watcher'></td>
+                <td><input class='watcherClass' placeholder='Watcher'></td>
+                <td><button onclick ='addData()'>Save</button></td>
+            </tr>
+        </table>  
+        <script src='tracker.js'></script>
+    </body>
+</html>
