@@ -25,7 +25,7 @@ function addData() {
 
 function displayData() {
     // Assuming you want to display the latest data entered
-    let latestData = list[list.length - 1];
+    let latestData = list[list.length-1];
 
     // Access the DOM elements where you want to display the data
     let storedDateElement = document.getElementById('storedDate');

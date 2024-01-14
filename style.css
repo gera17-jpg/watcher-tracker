@@ -1,0 +1,8 @@
+.dayClass,.nightClass,.dateClass{
+    width: 220px;
+}
+button{
+    width: 50px;
+    height: 30px;
+    align-content: center;
+}
